@@ -3,6 +3,8 @@ tvOS App Server test bed
 
 This is a barebones Node.js app to serve up javascript & tvml for my tvOS testing.
 
+Why heroku to test tvOS apps? Because you need an external host for the tvml and javascript pages. Heroku also provides HTTPS which as of iOS9, apps are prevented from linking to non-HTTPS servers to encourage best practices. Sure you can do this locally but this is a fast and free solution to get something up quick!
+
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
